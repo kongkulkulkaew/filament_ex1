@@ -25,6 +25,7 @@ class DatabaseSeeder extends Seeder
         // Seed order system data
         $this->call([
             OrderSeeder::class,
+            TimeLogSeeder::class,
         ]);
     }
 }
